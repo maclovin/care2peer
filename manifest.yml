@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: care2peer
+  host: care2peer
+  disk_quota: 1024M
+  services:
+  - care2peer-AdvancedMobileAccess
+  - care2peer-imfpush
+  - care2peer-cloudantNoSQLDB
